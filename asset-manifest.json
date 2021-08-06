@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/blue_pad/static/css/main.3c754224.chunk.css",
+    "main.js": "/blue_pad/static/js/main.4b9714fa.chunk.js",
+    "main.js.map": "/blue_pad/static/js/main.4b9714fa.chunk.js.map",
+    "runtime-main.js": "/blue_pad/static/js/runtime-main.be1c3412.js",
+    "runtime-main.js.map": "/blue_pad/static/js/runtime-main.be1c3412.js.map",
+    "static/css/2.9082872e.chunk.css": "/blue_pad/static/css/2.9082872e.chunk.css",
+    "static/js/2.18b6f68f.chunk.js": "/blue_pad/static/js/2.18b6f68f.chunk.js",
+    "static/js/2.18b6f68f.chunk.js.map": "/blue_pad/static/js/2.18b6f68f.chunk.js.map",
+    "index.html": "/blue_pad/index.html",
+    "static/css/2.9082872e.chunk.css.map": "/blue_pad/static/css/2.9082872e.chunk.css.map",
+    "static/css/main.3c754224.chunk.css.map": "/blue_pad/static/css/main.3c754224.chunk.css.map",
+    "static/js/2.18b6f68f.chunk.js.LICENSE.txt": "/blue_pad/static/js/2.18b6f68f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.be1c3412.js",
+    "static/css/2.9082872e.chunk.css",
+    "static/js/2.18b6f68f.chunk.js",
+    "static/css/main.3c754224.chunk.css",
+    "static/js/main.4b9714fa.chunk.js"
+  ]
+}
