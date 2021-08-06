@@ -4,7 +4,9 @@ import Articles from './Articles'
 import About from './About'
 import Homepage from './Homepage'
 import Error from './Error' 
-
+import Romance from './Romance'
+import Horror from './Horror'
+import Other from './Other'
 import{
     Link
   } from "react-router-dom";
@@ -77,7 +79,10 @@ const App = () => {
             <Route exact  path='/' component={Homepage}/>
             <Route exact path='/article' component={Articles}/>
             <Route path='/about' component={About}/>
-            <Route component={Error}/>
+            <Route exact  path='/article/romance' component={Romance}/>
+            <Route exact path='/article/horror' component={Horror}/>
+            <Route exact path='/article/other' component={Other}/>
+            {/* <Route component={Error}/> */}
         </Switch>
        
         </>

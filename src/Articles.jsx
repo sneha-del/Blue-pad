@@ -3,27 +3,36 @@ import{
     Link
   } from "react-router-dom";
   import './article.css'
+  import { Switch,Route } from 'react-router-dom'
 import Romance from './Romance';
 import './article.css';
 import Horror from './Horror';
+import Other from './Other'
 const Articles = () => {
     return (
         <div className="articles">
             {/* romance */}
             <button className="romance">
-                <Link to='/romance'>Romance</Link>
+                <Link to='/article/romance'>Romance</Link>
             </button>
-            <Romance/>
+            {/* <Romance/> */}
             {/* horror */}
             <button className="horror">
-            <Link to='/horror'>Horror</Link>
+            <Link to='/article/horror'>Horror</Link>
             </button>
-            <Horror/>
+            {/* <Horror/> */}
             {/* other */}
             <button className="other">
-            <Link to='/other'>Others</Link>
+            <Link to='/article/other'>Other</Link>
             </button>
+            {/* <Switch>
+            <Route exact  path='/article/romance' component={Romance}/>
+            <Route exact path='/article/horror' component={Horror}/>
+            <Route exact path='/article/other' component={Other}/>
+            <Route component={Error}/>
+        </Switch> */}
         </div>
+        
     )
 }
 

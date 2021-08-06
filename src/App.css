@@ -179,6 +179,7 @@ li {
 
   .mobile-menu-link {
     background-color: white;
+    opacity: 0.5;
     height: 20rem;
     display: grid;
     grid-column: 2/5;
