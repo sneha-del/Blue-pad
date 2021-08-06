@@ -5,6 +5,7 @@ import{
   import './article.css'
 import Romance from './Romance';
 import './article.css';
+import Horror from './Horror';
 const Articles = () => {
     return (
         <div className="articles">
@@ -17,6 +18,7 @@ const Articles = () => {
             <button className="horror">
             <Link to='/horror'>Horror</Link>
             </button>
+            <Horror/>
             {/* other */}
             <button className="other">
             <Link to='/other'>Others</Link>
