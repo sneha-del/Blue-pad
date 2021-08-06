@@ -1,0 +1,18 @@
+.articles{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.romance{
+  
+    padding: 20px;
+    margin: 20px;
+}
+.horror{
+    padding: 20px;
+    margin: 20px;
+}
+.other{
+    padding: 20px;
+    margin: 20px;
+}

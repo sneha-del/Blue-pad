@@ -1,0 +1,15 @@
+.map{
+    margin: 0;
+    height: 10%;
+   /* height: 5%; */
+   /* padding: 50px; */
+   width: 100%;
+ justify-items: center;  
+ 
+}
+h3{
+    align-items: center;
+    justify-content: center;
+    margin-left: 50%;
+}
+
